@@ -1,0 +1,662 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
+body{
+    font-family: "Philosopher", sans-serif;
+    margin: 0 auto;
+    width: 100%;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*HEADER*/
+
+.header_logo {
+height: 128px;
+}
+.header_nav {
+    font-size: 16px;
+}
+.header_nav a{
+    font-size: 16px;
+    transition: opacity 0.3s;
+}
+.header_nav a:hover{
+    opacity: 0.3;
+    
+}
+.header_profile:hover, .header_basket:hover {
+    opacity: 0.3;
+  }
+  
+.header_profile:hover img, .header_basket:hover img {
+    opacity: 0.3;
+  }
+  
+.header_list {
+    display: flex;
+    gap: 35px ;
+}
+
+.container{
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+.header {
+    padding: 25px 0;  
+    
+    position: relative;
+    z-index: 10;
+  }
+  
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+
+/*PROGRAMS*/
+
+  .programs {
+    padding: 36px 0px 76px 0px;
+}
+.container {
+}
+.programs-title {
+    margin-bottom: 50px;
+}
+.programs__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;
+    color: #000000;
+}
+.programs-cards {
+    display: flex;
+    gap: 20px;
+}
+.programs-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 380px;
+    min-height: 300px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    box-shadow:  0px 4px 10px 5px rgba(0, 0, 0, 0.250);
+
+    transition: all 0.5s;
+}
+    /*Наведение на карточку*/
+.programs-card:hover {
+    transform: scale(1.08);
+}
+.programs-card-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.programs-card__img {
+    width: 70px;
+    height: 70px;
+}
+
+
+.programs-card__title {
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    color: #000000;
+}
+.programs-card__text {
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+}
+.programs-card-button {
+    min-width: 225px;
+    min-height: 41px;
+    background-color: #90E326;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.programs-card-button:hover {
+    background-color: #447704;
+}
+.programs-card-button__title {
+    list-style-type: none;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.programs-card-button__title:hover {
+    color: #000000;
+}
+
+
+/*PROGRAMS FOOD*/
+.programs-food {
+    padding: 15px 0 50px 0;
+}
+.container {
+}
+.programs-food-title {
+    margin-bottom: 25px;
+}
+.programs-food__title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 45px;
+    color: #000000;
+    text-align: center;
+}
+.programs-food-card {
+    max-width: 380px;
+    height: 430px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.250);
+
+    transition: all 0.5s;
+}
+
+/*Наведение на картинку*/
+.programs-food-card:hover {
+    transform: scale(1.08);
+}
+.programs-menu-calories {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.programs-menu {
+}
+.programs-menu__content {
+
+}
+.programs-menu__list {
+    display: flex;
+    column-gap: 50px;
+}
+
+
+
+.programs-menu-list li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.programs-menu__list__all a {
+    color: #447704;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
+}
+
+.programs-menu__list__loss:hover a,
+.programs-menu__list__sport:hover a,
+.programs-menu__list__veg:hover a {
+    color: #447704;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
+}
+.programs-menu__list__loss:hover a,
+.programs-menu__list__sport:hover a,
+.programs-menu__list__veg:hover a,
+.programs-menu__list__lean:hover a{
+    color: #447704;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
+}
+
+.programs-calories {
+}
+.programs-calories__content {
+}
+.programs-calories__list {
+    display: flex;
+    column-gap: 10px;
+
+}
+.programs-calories-list li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+}
+.programs-menu__list_thousand_calories a {
+    color: #447704;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
+}
+
+.programs-menu__list_thousand_three_hundred_calories:hover a,
+.programs-menu__list_thousand_eight_hundred_calories:hover a,
+.programs-menu__list_two_thousand_calories:hover a {
+    color: #447704;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
+}
+
+.programs-food-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 50px;
+}
+
+.programs-food-card {
+    max-width: 380px;
+    height: 430px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.250);
+}
+.programs-food-card-img {
+    width: 380px;
+    height: 215px;
+}
+.programs-food-card__img {
+    width: 380px;
+    height: 215px;
+}
+.programs-food-card__content {
+    padding: 18px 15px 30px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.programs-food-card__title {
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 28px;
+    color: #000000;
+}
+.programs-food-card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+.programs-food-card-button {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #90E326;
+}
+.programs-food-card-button:hover {
+    background-color: #447704;
+}
+
+
+.programs-food-card-button__text {
+    list-style-type: none;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.programs-food-card-button__text:hover {
+    color: #000000;
+}
+
+.programs-sport-food__content {
+    padding: 18px 15px 60px 15px;
+}
+
+.programs-lactose-free-food__content {
+    padding: 18px 15px 30px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.programs-stomach-food__content {
+    padding: 18px 15px 30px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.programs-baby-food-card__content{
+    padding: 18px 15px 50px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.vector_two {
+    background: url(./../image/programs-food/Vectors.png);
+    object-fit: cover;
+    width: 100%;
+    height: 1142px;
+    background-repeat: no-repeat;
+}
+
+
+/*FOOTER*/
+.footer {
+    padding: 25px 0;  
+    position: relative;
+    z-index: 10;
+  }
+  
+  .footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start
+  }
+  .about_as{
+    width: 370px;
+  }
+  .contact_icons {
+    list-style-type: none;
+    padding: 0;
+    columns: 2;
+   
+  }
+  
+  .contact_icons li a {
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+  }
+  .contact_icons li img {
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+
+
+/*PROGRAMS DAILY RATION*/
+.program-ration {
+    padding: 25px 0 25px;
+}
+.container {
+}
+.program-ration-title {
+    margin-bottom: 50px;
+}
+.program-ration__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    color: #447704;
+}
+.program-ration-wrapper {
+    padding: 25px 80px 45px 80px;
+    border-radius: 30px;
+    background-color: #E7F1DD;
+}
+.program-ration-wrapper-content {
+}
+.program-ration-wrapper-content-title {
+}
+.program-ration-wrapper-content__title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+.program-ration-wrapper-content-cards {
+    display: flex;
+    gap: 116px;
+}
+.program-ration-cards-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.programs-ration-card__content {
+    padding: 24px 18px 18px 18px;
+    width: 400px;
+    height: 205px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.250);
+    border-radius: 30px;
+}
+.program-ration-card-calories {
+    margin-bottom: 31px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.programs-ration-card-title-meal {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+.programs-ration-card-first-meal {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.500);
+}
+.programs-ration-card-calories-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 110px;
+    height: 32px;
+    background-color: #90E326;
+    border-radius: 10px;
+}
+.programs-ration-card-calories-button:hover {
+    background-color: #86C239;
+}
+.programs-ration-card-calories-button__title {
+    text-align: center;
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.programs-ration-card-title {
+    margin-bottom: 17px;
+}
+.programs-ration-card__title {
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    color: #447704;
+    text-align: center;
+}
+.programs-ration-card-kbzhu {
+    margin-bottom: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+.programs-ration-card-kbzhu-proteins {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.programs-ration-card-kbzhu-proteins__count {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.500);
+}
+.programs-ration-card-kbzhu-proteins__title {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.500);
+}
+.programs-ration-card-kbzhu-fats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.programs-ration-card-kbzhu-fats__count {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.500);
+}
+.programs-ration-card-kbzhu-fats__title {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.500);
+}
+.programs-ration-card-kbzhu-carbohydrates {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.programs-ration-card-kbzhu-carbohydrates__count {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.500);
+}
+.programs-ration-card-kbzhu-carbohydrates__title {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.500);
+
+}
+.programs-ration-card-line {
+    position: relative;
+    display: inline-block;
+}
+.programs-ration-card-line:after {
+    content: "";
+    background: #447704;
+    width: 400px;
+    height: 3px;
+    bottom: 17px;
+    position: absolute;
+}
+
+
+.program-ration-cards-duration {
+    padding: 20px 30px 28px 29px;
+    width: 504px;
+    height: 434px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.250);
+    border-radius: 30px;
+}
+.programs-ration-card-duration__content {
+}
+.programs-ration-card-duration-title {
+    margin-bottom: 16px;
+}
+.programs-ration-card-duration__title {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+.programs-ration-cards-duration {
+    margin-bottom: 42px;
+}
+
+.programs-ration-cards-duration__card-two {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 45px;
+}
+.programs-ration-cards-duration__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 200px;
+    height: 70px;
+    background-color: #90E326;
+    border-radius: 10px;
+}
+.programs-ration-cards-duration__card:hover {
+    background-color: #86C239;
+}
+
+.programs-ration-cards-duration__card__title {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.programs-ration-cards-duration__card__text {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #447704;
+}
+.programs-ration-cards-duration-button {
+    min-width: 300px;
+    min-height: 60px;
+    background-color: #90E326;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+.programs-ration-cards-duration-button:hover {
+    background-color: #86C239;
+}
+.programs-ration-cards-duration-button__title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+
+/*PROGRAMS RATION ABOUT*/
+.programs-ration-about {
+    padding: 82px 0 82px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.programs-ration-about__text-one,
+.programs-ration-about__text-two {
+    font-weight: 400;
+    font-size: 32px;
+    color: #000000;
+}
+
+.programs-ration-about__text__green {
+    color: #90E326;
+}

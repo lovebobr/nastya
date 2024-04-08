@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap");
+body {
+  font-family: "Philosopher", sans-serif;
+  margin: 0;
+  width: 100%;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin: 0;
+}
+.header_logo {
+  height: 128px;
+}
+
+.header_nav1 {
+  display: flex;
+  gap: 35px;
+}
+.header_nav a {
+  font-size: 16px;
+  transition: opacity 0.3s;
+}
+.header_nav a:hover {
+  opacity: 0.3;
+}
+.header_list {
+  display: flex;
+  gap: 35px;
+}
+.header_list1 {
+  display: flex;
+  gap: 16px;
+}
+
+.container {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header {
+  padding: 25px 0;
+  position: relative;
+  z-index: 10;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.steps{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.group{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.check_text{
+    display: flex;
+    align-items: center;
+}
+.text_check{
+    font-size: 24px;
+}
+.check h4{
+    margin: 0;
+    
+}
+.check{
+    padding-left: 35px ;
+    margin-bottom: 50px;
+}
+.gyrus{
+    margin-bottom: 30px;
+}
+.two_rectangle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.first_rectangle{
+    width: 568px;
+    height: 462px;
+    border-radius: 20px 0 0 20px;
+    background-color: rgba(134, 194, 57, 1);
+}
+.second_rectangle{
+    height: 411px; 
+    width: 668px;
+    border-radius:   0 20px 20px 0;
+    background-color: rgba(201, 223, 149, 1);
+}
+h3{
+    font-size: 32px;
+}
+.rectangle_text{
+    padding-top: 65px;
+    padding-left: 80px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #447704;
+    transition: opacity 0.3s;
+    border-radius: 50px;
+    width: 296px;
+    height: 74px;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+  }
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
+  p.text_check.a{
+    margin-bottom: 50px;
+  }
+  .payment{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    padding-top: 65px;
+    padding-left: 15px;
+  }
+  p.text_check.b{
+    margin-top: 5px;
+  }
+  .footer {
+    padding: 25px 0;
+    position: relative;
+    z-index: 10;
+  }
+  
+  .footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .about_as {
+    width: 370px;
+  }
+  .contact_icons {
+    list-style-type: none;
+    padding: 0;
+    columns: 2;
+  }
+  
+  .contact_icons li a {
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+  }
+  .contact_icons li img {
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+  
